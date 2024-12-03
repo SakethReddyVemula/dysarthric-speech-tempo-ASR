@@ -1,13 +1,3 @@
-## Phonetic Analysis and Tempo Adjustments for Improved Speech Recognition in Dysarthric Speakers
-Feifei Xiong · Jon Barker · Heidi Christensen IEEE ICASSP-2019
-
-### Team
-Saketh Reddy Vemula | 2022114014 | saketh.vemula@research.iiit.ac.in
-
-Viswanath Vuppala | 2022101084 | viswanath.vuppala@research.iiit.ac.in
-
-### File Structure
-```
 .
 ├── Analysis
 │   ├── manner_of_articulation.png
@@ -23,40 +13,43 @@ Viswanath Vuppala | 2022101084 | viswanath.vuppala@research.iiit.ac.in
 │   ├── M01_results
 │   │   ├── M01_Session1_wer_results.csv
 │   │   └── M01_Session1_wer_summary.json
-│   ├── M01_results_cleaned -> Contains results for Model-1
+│   ├── M01_results_cleaned
 │   │   ├── M01_Session1_wer_results.csv
 │   │   ├── M01_Session1_wer_results.xlsx
 │   │   └── M01_Session1_wer_summary.json
-│   ├── M01_results_model_2 -> Contains results for Model-2
+│   ├── M01_results_model_2
 │   │   ├── M01_Session1_wer_results.csv
 │   │   ├── M01_Session1_wer_results.xlsx
 │   │   └── M01_Session1_wer_summary.json
 │   ├── M02_results
 │   │   ├── M02_Session1_wer_results.csv
 │   │   └── M02_Session1_wer_summary.json
-│   ├── M02_results_cleaned -> Contains results for Model-1
+│   ├── M02_results_cleaned
 │   │   ├── M02_Session1_wer_results.csv
 │   │   ├── M02_Session1_wer_results.xlsx
 │   │   └── M02_Session1_wer_summary.json
-│   ├── M02_results_model_2 -> Contains results for Model-2
+│   ├── M02_results_model_2
 │   │   ├── M02_Session1_wer_results.csv
 │   │   ├── M02_Session1_wer_results.xlsx
 │   │   └── M02_Session1_wer_summary.json
 │   ├── M04_results
 │   │   ├── M04_Session2_wer_results.csv
 │   │   └── M04_Session2_wer_summary.json
-│   ├── M04_results_cleaned -> Contains results for Model-1
+│   ├── M04_results_cleaned
 │   │   ├── M04_Session2_wer_results.csv
 │   │   ├── M04_Session2_wer_results.xlsx
 │   │   └── M04_Session2_wer_summary.json
-│   ├── M04_results_model_2 -> Contains results for Model-2
+│   ├── M04_results_model_2
 │   │   ├── M04_Session2_wer_results.csv
 │   │   ├── M04_Session2_wer_results.xlsx
 │   │   └── M04_Session2_wer_summary.json
-│   ├── overall_wer_summary.json -> manually compiled results of each models and Speaker combo
+│   ├── output_dir
+│   │   └── evaluation_results.json
+│   ├── overall_wer_summary copy.json
+│   ├── overall_wer_summary.json
 │   ├── phoneme_level_signal_domain.py
-│   ├── SoX_phoneme_level.py -> SoX tempo adjustment for one sample
-│   ├── SoX_phoneme_level_dataset.py -> SoX tempo adjustment for a Speaker
+│   ├── SoX_phoneme_level.py
+│   ├── SoX_phoneme_level_VV.py
 │   └── tempo_adjust_and_infer.py
 ├── Code
 │   ├── energy_phonemes.py
@@ -89,13 +82,3 @@ Viswanath Vuppala | 2022101084 | viswanath.vuppala@research.iiit.ac.in
     └── M04_S2.json
 
 15 directories, 66 files
-
-```
-`ASR`: Contains scripts for inferencing Wav2Vec ASR model
-
-`Code` and `Analysis`: Phonemic Analysis of Control and Dysarthric Speakers
-
-`Slides`: Seminar-2, Mid Project and Final Project Slides for references. These slides contains links for excel sheets linked.
-
-`utils`: helper codes for formatting, and changing formats of file.
-
