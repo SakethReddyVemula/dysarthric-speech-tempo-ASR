@@ -1,0 +1,43 @@
+{
+    "M01_Session_1_headMic": {
+        "Average Original WER": 1.0332388290721624,
+        "Average Adjusted WER": 1.016480124813458,
+        "Average Original Duration": 4.750010416666667,
+        "Average Adjusted Duration": 3.9738159722222224
+    },
+    "M02_Session1_arrayMic": {
+        "Average Original WER": 1.0083499331236887,
+        "Average Adjusted WER": 0.9808603287110075,
+        "Average Original Duration": 2.6993212669683255,
+        "Average Adjusted Duration": 2.5054420248868774
+    },
+    "M04_Session2_headMic": {
+        "Average Original WER": 1.0236600530545843,
+        "Average Adjusted WER": 1.0326815870761183,
+        "Average Original Duration": 4.5883244628906255,
+        "Average Adjusted Duration": 3.6116140136718746
+    }
+}
+
+{
+    {
+        "M01_Session1_headMic": {
+            "Average Original WER": 0.982922478755812,
+            "Average Adjusted WER": 0.9096070596070596,
+            "Average Original Duration": 4.750010416666667,
+            "Average Adjusted Duration": 3.9738159722222224
+        }
+    },
+    {
+        "Average Original WER": 1.0933529517239926,
+        "Average Adjusted WER": 1.1122714515248453,
+        "Average Original Duration": 2.6993212669683255,
+        "Average Adjusted Duration": 2.5054420248868774
+    },
+    {
+        "Average Original WER": 1.0301746481864593,
+        "Average Adjusted WER": 1.0738404967735675,
+        "Average Original Duration": 4.613311023622047,
+        "Average Adjusted Duration": 3.629524852362205
+    }
+}
